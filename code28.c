@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 int main() {
     int n, i;
@@ -15,3 +16,22 @@ int main() {
         printf("No even numbers between 1 and %d\n", n);
     return 0;
 }
+=======
+#include <stdio.h>
+int main() {
+    int n, i;
+    long long product = 1;  
+    int found = 0;           
+    printf("Enter n: ");
+    scanf("%d", &n);
+    for (i = 2; i <= n; i += 2) {  
+        product *= i;
+        found = 1;
+    }
+    if (found)
+        printf("Product of even numbers from 1 to %d = %lld\n", n, product);
+    else
+        printf("No even numbers between 1 and %d\n", n);
+    return 0;
+}
+>>>>>>> 955887b0aa6e935bc9039484d7176dd3b52f4397
