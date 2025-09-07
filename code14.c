@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #include <stdio.h>
 int main() {
     char ch;
@@ -11,18 +11,5 @@ int main() {
         printf("%c is a consonant.\n", ch);
     }
     return 0;
-=======
-#include <stdio.h>
-int main() {
-    char ch;
-    printf("Enter a character: ");
-    scanf(" %c", &ch); 
-     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
-        ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
-        printf("%c is a vowel.\n", ch);
-    } else {
-        printf("%c is a consonant.\n", ch);
-    }
-    return 0;
->>>>>>> 955887b0aa6e935bc9039484d7176dd3b52f4397
+
 }
