@@ -7,7 +7,7 @@ int main() {
         scanf("%d", &num);
         repeated ^= num;
     }
-    for(int i = 1; i < n; i++) {
+    for(int i = 1; i <= n - 1; i++) {
         repeated ^= i;
     }
     printf("%d\n", repeated);
